@@ -45,6 +45,8 @@ public class q6_a {
             case 11 :
                 System.out.println("Sheep");
                 break;
+            default :
+                System.out.println("Invalid Input");
         }
     }
 }
