@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d954aba7-7c8f-41d0-a9ec-01e5cab0f494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma1/p1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma1/p2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma1/p3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.speed_limit" />
@@ -166,6 +146,7 @@
       <workItem from="1612633265162" duration="31000" />
       <workItem from="1612796867504" duration="8966000" />
       <workItem from="1612885913330" duration="3453000" />
+      <workItem from="1612949163798" duration="70000" />
     </task>
     <servers />
   </component>
