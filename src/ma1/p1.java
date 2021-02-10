@@ -6,15 +6,21 @@ public class p1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("This program will calculate the runway length");
+        double v = 0, a = 0;
+        try {
+            // receive speed as input
+            System.out.println("Please enter the speed, v");
+            v = input.nextDouble();
 
-        // receive speed as input
-        System.out.println("Please enter the speed, v");
-        double v = input.nextDouble();
-
-        // receive acceleration as input
-        System.out.println("Please enter the acceleration, a");
-        double a = input.nextDouble();
-
+            // receive acceleration as input
+            System.out.println("Please enter the acceleration, a");
+            a = input.nextDouble();
+        }
+        catch(Exception e) {
+            System.out.println("Unexpected input, exiting the program.");
+            System.out.println("Error: " + e);
+            System.exit(1);
+        }
         // receive weather condition, loop until correct input entered
         System.out.println("Please indicate weather the runway is wet or dry\nWet: w, Dry: d");
         char wetOrDry;

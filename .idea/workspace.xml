@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d954aba7-7c8f-41d0-a9ec-01e5cab0f494" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/practical2/q6_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/practical2/q6_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practical2/q6_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practical2/q6_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma1/p4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma1/p4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma1/p1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma1/p2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma1/p3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma1/p3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
       <recent name="practical2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p4">
+  <component name="RunManager" selected="Application.speed_limit">
     <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ma1.p1" />
       <module name="java_files" />
@@ -103,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q6_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practical2.q6_a" />
+    <configuration name="speed_limit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kattis.speed_limit" />
       <module name="java_files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practical2.*" />
+          <option name="PATTERN" value="kattis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,24 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p4" />
-        <item itemvalue="Application.p1" />
+        <item itemvalue="Application.speed_limit" />
         <item itemvalue="Application.p3" />
+        <item itemvalue="Application.p4" />
         <item itemvalue="Application.p2" />
-        <item itemvalue="Application.q6_a" />
+        <item itemvalue="Application.p1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +164,8 @@
       <workItem from="1612354777769" duration="1435000" />
       <workItem from="1612465255842" duration="830000" />
       <workItem from="1612633265162" duration="31000" />
-      <workItem from="1612796867504" duration="4609000" />
+      <workItem from="1612796867504" duration="8966000" />
+      <workItem from="1612885913330" duration="3453000" />
     </task>
     <servers />
   </component>
