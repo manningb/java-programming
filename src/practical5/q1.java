@@ -10,7 +10,7 @@ public class q1 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please input a number of double values\nEnter any alphabetical letter to stop");
 
-        // initalise empty doubles array
+        // initialise empty doubles array
         ArrayList<Double> doubles = new ArrayList<Double>();
 
         // read in array of doubles, one by one
@@ -25,6 +25,7 @@ public class q1 {
         // print out the stats
         System.out.printf("The mean is: %.2f\n", mean);
         System.out.printf("The standard deviation is: %.2f", std_dev);
+        System.out.println("std_dev = " + std_dev);
     }
 
     private static double mean(ArrayList<Double> double_values){
