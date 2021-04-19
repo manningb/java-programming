@@ -30,15 +30,12 @@ public class q1 {
                 count_words += line.split(" ").length;
                 count_char += line.length();
             }
+            System.out.println("\nFile " + file_name + " has:");
+            System.out.println("Number of lines: " + count_lines);
+            System.out.println("Number of words: " + count_words);
+            System.out.println("Number of chars: " + count_char);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
-
-        } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("File not found.");
         }
-        System.out.println("\nFile " + file_name + " has:");
-        System.out.println("Number of lines: " + count_lines);
-        System.out.println("Number of words: " + count_words);
-        System.out.println("Number of chars: " + count_char);
     }
 }

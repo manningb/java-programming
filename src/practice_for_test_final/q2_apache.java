@@ -1,4 +1,7 @@
-package ma4;
+package practice_for_test_final;
+
+import org.apache.commons.io.FilenameUtils;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +12,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
-public class q2 {
+public class q2_apache {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         FileInputStream in = null;
@@ -27,8 +30,9 @@ public class q2 {
         Date date = Calendar.getInstance().getTime();
         DateFormat dateFormat = new SimpleDateFormat("yyyy_mm_dd_hh_mm_ss");
         String strDate = dateFormat.format(date);
+        String ext = FilenameUtils.getExtension(file_name);
         if (original_file.exists()) {
-            String new_file_name = file_name + strDate;
+            String new_file_name = FilenameUtils.removeExtension(file_name) + "_" + strDate + "." +ext;
             try {
                 Files.move(original_file.toPath(), new File(new_file_name).toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException ex) {
