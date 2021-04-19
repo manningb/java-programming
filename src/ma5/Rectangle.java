@@ -1,6 +1,8 @@
 package ma5;
 
-public class Rectangle extends GeometricObject {
+import practical7.length;
+
+public class Rectangle extends GeometricObject implements Rotatable {
 	private double width;  // The width of a rectangle
 	private double height;  // The height of a rectangle
 
@@ -59,5 +61,20 @@ public class Rectangle extends GeometricObject {
 	@Override
 	public String toString() {
 		return super.toString() + ", width: " + width + ", height: " + height;
+	}
+
+	@Override
+	public void scale(double factor) {
+		if (factor > 0) {
+			width *= factor;
+			height *= factor;
+		}
+	}
+
+	@Override
+	public void rotate() {
+		double temp = width;
+		width = height;
+		height = temp;
 	}
 }

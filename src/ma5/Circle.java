@@ -52,4 +52,12 @@ public class Circle extends GeometricObject {
 	public String toString() {
 		return super.toString() + ", radius: " + radius;
 	}
+
+	@Override
+	public void scale(double factor) {
+		if (factor > 0) {
+			radius = radius * factor;
+		}
+	}
+
 }

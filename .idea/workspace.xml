@@ -8,23 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d954aba7-7c8f-41d0-a9ec-01e5cab0f494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/CircleWithStaticMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/TestCircleWithStaticMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/TestPassObject1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/TestPassObject2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle/TotalArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ma5/Scalable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma4/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/q1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma4/q1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/q2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_files/ma4/q2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma4/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma4/q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma4/q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma4/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_for_test_final/q2_apache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ma4/test2021_34_09_01_34_34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practical7/length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practical7/length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ict2_17324576-brianmanning_java_final.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ict2_17324576-brianmanning_java_final_v2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ict2_17324576-brianmanning_java_final_v3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/q2_apache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_files/ma4/test2021_34_09_01_34_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma5/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma5/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma5/GeometricObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma5/GeometricObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ma5/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ma5/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,13 +84,13 @@
       <recent name="practical2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.q1">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ict2.Test" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma5.Test" />
       <module name="java_files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ict2.*" />
+          <option name="PATTERN" value="ma5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircleWithStaticMembers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="circle.TestCircleWithStaticMembers" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ict2.Test" />
       <module name="java_files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="circle.*" />
+          <option name="PATTERN" value="ict2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCircleWithStaticMembers" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.length" />
       <item itemvalue="Application.q2" />
       <item itemvalue="Application.q1" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.q1" />
         <item itemvalue="Application.q2" />
         <item itemvalue="Application.length" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestCircleWithStaticMembers" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +250,7 @@
       <workItem from="1618387877403" duration="2005000" />
       <workItem from="1618398550213" duration="508000" />
       <workItem from="1618758813241" duration="2955000" />
+      <workItem from="1618840768829" duration="2554000" />
     </task>
     <servers />
   </component>

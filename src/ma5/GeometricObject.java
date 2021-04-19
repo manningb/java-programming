@@ -2,7 +2,7 @@ package ma5;
 
 import java.util.Date;
 
-public abstract class GeometricObject {
+public abstract class GeometricObject implements Comparable<GeometricObject>, Scalable{
 	private String color; // The color
 	private boolean filled; // Filled (true for yes)
 	private Date dateCreated; // The date of creation
@@ -55,5 +55,15 @@ public abstract class GeometricObject {
 	@Override
 	public String toString() {
 		return "created: " + dateCreated + ", color: " + color + ", filled: " + filled;
+	}
+
+	public int compareTo(GeometricObject o) {
+		if (this.getArea() == o.getArea())
+			return 0;
+		else if (this.getArea() > o.getArea()) {
+			return 1;
+		} else {
+			return 0;
+		}
 	}
 }
